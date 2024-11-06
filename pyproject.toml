@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conway_python"
+dynamic = ["version"]
+description = "A Python implementation of Conway's Game of Life."
+readme = "README.md"
+authors = [{ name = "Sean McGarril", email = "smcgarril@gmail.com"}]
+dependencies = [
+    'tomli; python_version < "3.11"',
+]
+
+[project.scripts]
+conway_python = "conway_python.__main__:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "conway_python.__version__"}
