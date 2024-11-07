@@ -9,3 +9,5 @@
 4. The ability to pause, step, and reverse evolution states
 
 5. A browser view implementation to run on localhost
+
+6. Add database to save preferences, custom patterns, and favorite grid runs
