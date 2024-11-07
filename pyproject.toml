@@ -17,3 +17,7 @@ conway_python = "conway_python.__main__:main"
 
 [tool.setuptools.dynamic]
 version = {attr = "conway_python.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["conway_python"]
+namespaces = false

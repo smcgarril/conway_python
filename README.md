@@ -22,17 +22,12 @@ Inspired by the following project at realpython.com: [https://realpython.com/con
 
 3. Build project:
   ```
-  $ python -m pip install .
+  $ python -m pip install -e .
   ```
 
 4. Run the program:
   ```
   $ conway_python -p "Glider Gun" -g 100
-  ```
-
-NOTE: To execute with a version of Python lower than 3.11 you may need to install an external dependency:
-  ```
-  $ pip install tomli
   ```
 
 
