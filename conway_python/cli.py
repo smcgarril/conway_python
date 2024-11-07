@@ -2,6 +2,7 @@ import argparse
 
 from conway_python import __version__, patterns, views
 
+# Parses CLI options to control program behavior
 def get_command_line_args():
     parser = argparse.ArgumentParser(
         prog="conway_python",
